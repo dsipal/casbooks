@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "casbooks",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and TailwindCSS",
+  "description": "Business site created with Gatsby and Tailwind",
   "version": "0.3.0",
-  "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
+  "author": "Devin Sipal <devin@devinsipal.com>",
   "dependencies": {
     "@fontsource/merriweather": "^4.5.6",
     "@fontsource/montserrat": "^4.5.5",
@@ -45,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kosvrouvas/gatsby-tailwindcss-starter"
+    "url": "https://github.com/dsipal/casbooks"
   },
   "bugs": {
-    "url": "https://github.com/kosvrouvas/gatsby-tailwindcss-starter/issues"
+    "url": "https://github.com/dsipal/casbooks/issues"
   }
 }

@@ -9,33 +9,30 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div className="w-full hero">
-    
-    </div>
-    <StaticImage src="../images/hero.jpg" alt="Global Logistics" class="-ml-6 -mr-6"></StaticImage>
-    
-    
+    <div className="mt-12">
+      <h1 className="mb-12 text-center">Sipal Enterprises</h1>
+      <div className="grid grid-cols-2 mb-8">
+        <div className="flex justify-center items-center">
+          <StaticImage src="../images/plane.jpg" alt="A plane on a blue background" class="m-6 max-w-xl object-cover"></StaticImage>
+        </div>
+        <div className="flex min-h-96 justify-center items-center">
+          <h1 className="pt-6 max-w-xl">We find the best manufacturers in Turkey and help bring their goods to American markets.</h1>
+        </div>
+      </div>
 
-    <div className="grid grid-cols-2">
-      <div>
-        <StaticImage src="../images/plane.jpg" alt="A plane on a blue background" class="m-6"></StaticImage>
-      </div>
-      <div class="flex min-h-full justify-center items-center">
-        <h1 class="p-12 pt-6 max-w-xl">We find the best manufacturers in Turkey and help bring their goods to American markets.</h1>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-2">
-      <div class="flex min-h-full justify-center items-center">
-        <h1 class="p-12 max-w-lg">Connecting the world through products that create memories.</h1>
-      </div>
-      <div>
-        <StaticImage src="../images/map.jpg" alt="The world on a blue background" class="m-6"></StaticImage>
+      <div className="grid grid-cols-2">
+        <div className="flex min-h-96 justify-center items-center">
+          <h1 className="p-12 max-w-lg">Connecting the world through products that create memories.</h1>
+        </div>
+        <div className="flex justify-center items-center">
+          <StaticImage src="../images/map.jpg" alt="The world on a blue background" className="m-6 max-w-xl"></StaticImage>
+        </div>
       </div>
     </div>
 
 
-    <div class="mt-24 p-12 xl:pr-48 xl:pl-48 lg:pr-24 lg:pl-24 md:pr-12 md:pl-12 sm:pr-6 sm:pl-6">
+
+    <div className="mt-24 p-12 xl:pr-48 xl:pl-48 lg:pr-24 lg:pl-24 md:pr-12 md:pl-12 sm:pr-6 sm:pl-6">
       <h1 className="mb-12 text-center"> How we can help you </h1>
       <ul>
         <li>
@@ -73,12 +70,12 @@ const IndexPage = () => (
       </ul>
     </div>
 
-    <div class="p-12 font-montserrat mt-24 xl:pr-48 xl:pl-48 lg:pr-24 lg:pl-24 md:pr-12 md:pl-12 sm:pr-6 sm:pl-6">
-      <h1 class="text-center mb-12">Some of our partners</h1>
+    <div className="p-12 font-montserrat mt-24 xl:pr-48 xl:pl-48 lg:pr-24 lg:pl-24 md:pr-12 md:pl-12 sm:pr-6 sm:pl-6">
+      <h1 className="text-center mb-12">Some of our partners</h1>
 
       <div class="grid grid-cols-2 mb-12">
-        <div>
-          <StaticImage src="../images/wlo.webp" alt="Global Logistics" class="mr-12"></StaticImage>
+        <div className="flex justify-center items-center">
+          <StaticImage src="../images/wlo.webp" alt="Global Logistics" class="mr-12 max-w-md"></StaticImage>
         </div>
         <div className="">
           <h1 className="mb-6">WLO Wood</h1>
@@ -86,9 +83,9 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div class="grid grid-cols-2 mb-12">
-        <div>
-          <StaticImage src="../images/sbs.jpg" alt="Global Logistics" class="mr-12"></StaticImage>
+      <div className="grid grid-cols-2 mb-12">
+        <div className="flex justify-center items-center">
+          <StaticImage src="../images/sbs.jpg" alt="Global Logistics" className="mr-12 max-w-md"></StaticImage>
         </div>
         <div className="">
           <h1 className="mb-6">Silver By Selene</h1>
@@ -101,7 +98,7 @@ const IndexPage = () => (
       <button className="">View More</button>
     </div>
 
-    
+
 
 
 
