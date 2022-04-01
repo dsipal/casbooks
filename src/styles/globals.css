@@ -1,0 +1,24 @@
+@tailwind base;
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600;
+}
+nav{
+  font-family: 'montserrat', sans-serif;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+}
+@tailwind components;
+@tailwind utilities;
+
