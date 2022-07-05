@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <div className="mt-12">
-      <h1 className="mb-12 text-center">Sipal Enterprises</h1>
+      
       <div className="grid grid-cols-2 mb-8">
         <div className="flex justify-center items-center">
           <StaticImage src="../images/plane.jpg" alt="A plane on a blue background" class="m-6 max-w-xl object-cover"></StaticImage>
@@ -41,8 +41,7 @@ const IndexPage = () => (
               <h2>Warehousing & Fulfillment</h2>
             </div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+              We operate a warehouse in central North Carolina, located in Sanford and are in the process of purchasing a larger facility nearby.  Our current warehouse offers 7,000 sq ft of warehouse space, and our new, larger facility will offer 20,000. Our professional staff people are fully equipped to receive, store, and ship your products throughout the United States.            </div>
           </div>
         </li>
 
@@ -52,8 +51,7 @@ const IndexPage = () => (
               <h2>Marketing & Analytics</h2>
             </div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+              We assist international artisans and manufacturers who wish to open and operate seller accounts within the United States. We act as your agent to open and maintain these accounts and provide account management and advise.            </div>
           </div>
         </li>
 
@@ -63,47 +61,12 @@ const IndexPage = () => (
               <h2>Accounting</h2>
             </div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              We can create a data driven marketing campaign, design creatives and websites, and help get your product in front of customers.
             </div>
           </div>
         </li>
       </ul>
     </div>
-
-    <div className="p-12 font-montserrat mt-24 xl:pr-48 xl:pl-48 lg:pr-24 lg:pl-24 md:pr-12 md:pl-12 sm:pr-6 sm:pl-6">
-      <h1 className="text-center mb-12">Some of our partners</h1>
-
-      <div class="grid grid-cols-2 mb-12">
-        <div className="flex justify-center items-center">
-          <StaticImage src="../images/wlo.webp" alt="Global Logistics" class="mr-12 max-w-md"></StaticImage>
-        </div>
-        <div className="">
-          <h1 className="mb-6">WLO Wood</h1>
-          <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-2 mb-12">
-        <div className="flex justify-center items-center">
-          <StaticImage src="../images/sbs.jpg" alt="Global Logistics" className="mr-12 max-w-md"></StaticImage>
-        </div>
-        <div className="">
-          <h1 className="mb-6">Silver By Selene</h1>
-          <p className="text-xl sm:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-
-
-
-      <button className="">View More</button>
-    </div>
-
-
-
-
-
-
-
   </Layout>
 )
 
