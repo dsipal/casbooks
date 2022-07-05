@@ -28,15 +28,18 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 1920,
-          padding: `0 1.0875rem 1.45rem`,
+          maxWidth: `100%`,
+          padding: `0`,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer className="flex justify-end text-lg">
+          <p>
+            © {new Date().getFullYear()} Sipal Enterprises, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org"> Gatsby </a>
+            by <a href="https://devinsipal.com">Devin Sipal</a>
+          </p>
         </footer>
       </div>
     </>

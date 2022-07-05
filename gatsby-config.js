@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Sipal Enterprises`,
     description: `A family business bringing the best products from Turkey to American homes.`,
-    author: `@kosvrouvas`,
+    author: `Devin Sipal`,
   },
   flags: {
     THE_FLAG: false
@@ -22,11 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `sipal-enterprises`,
+        short_name: `se`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
