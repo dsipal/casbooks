@@ -35,10 +35,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer className="flex justify-end text-lg">
           <p>
-            © {new Date().getFullYear()} Sipal Enterprises, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org"> Gatsby </a>
-            by <a href="https://devinsipal.com">Devin Sipal</a>
+            © {new Date().getFullYear()} Sipal Enterprises
           </p>
         </footer>
       </div>
